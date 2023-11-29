@@ -1,0 +1,249 @@
+
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">
+            *{
+                text-decoration:none; 
+            }
+            .navbar{             
+                margin-top:40px ; 
+                width: 80%;              
+                border: 1px solid black;
+                margin: auto;
+                background: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-right: 15px; padding-left: 15px; height: 20%;
+                 
+            }
+            .navdiv{
+                
+                display:flex;align-items: center; justify-content: space-between;
+            }
+            li{
+                list-style: none; display: inline-block;
+            }
+            li a{
+                color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+            }
+           
+           img{
+            width:1000px;
+            height:700px;
+           }
+           h1{
+            z-index: -999;
+          
+           }
+            
+            div{
+                text-align: center;
+                font-style: italic;
+                color: red;
+                font-size: 30px;
+                margin-top: 255px;
+            }
+            hr{
+                width:15cm; 
+            }        
+            
+            fieldset{
+                background-color: aliceblue;     
+            }
+            
+            input[type="text"]
+            input[type="email"]
+            input[type="tel"]
+            input[type="data"]
+            input[type="time"]            
+           
+           
+            input[type="text"]:focus{
+            background-color: yellow;
+            color: orange;
+        }    
+        hr{
+            width: 10cm;
+        }
+        select{
+            height: 0.9cm;
+        }
+        
+        
+
+        body{
+           
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: lightgrey;
+            }
+            input[type="text"],
+            input[type="password"]
+            {
+                width: 60%; 
+                margin: 9px 0;
+                padding: 10px 15px; 
+                display: inline-block; 
+                border: 2px solid green;           
+            }
+
+            form{
+                border:2px
+
+            }
+
+            button{
+                background-color:lime;
+                width: 5cm;
+                height:0.8cm;
+                padding: 10px;
+                border: none;
+                margin: 10px ;
+                cursor: pointer;
+            }        
+            
+            .cancelbtn { 
+                 width: auto; 
+                 padding: 10px 18px;
+                 margin: 10px 5px;
+    } 
+       hr{
+        width: 4cm;
+        }
+      
+
+         </style>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="navdiv" style="margin-top: 0px;">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <li><a href="#login">Login</a></li>  
+                   
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+        <br><br>
+        <br><br>
+        <center>
+        <h1 style="background-color:transparent; text-shadow: 5%; color: brown; font-size: 50px ;"><b>WELCOME TO LIBRARY MANAGEMENT SYSTEM!!!</b></h1>
+        <p>
+        <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="float: right; width: 600px; height: 600px;" >
+        Library and information science(s) or studies (LIS) is an interdisciplinary field of study that deals generally with organization, access, collection, and regulation of information, whether in physical or digital forms.
+        </p>
+        <p>A library management system is software that is designed to manage all the functions of a library. It helps librarian to maintain the database of new books and the books that are borrowed by members along with their due dates. This system completely automates all your library's activities.</p>
+        <p>Libraries in the United States generally use either the Library of Congress Classification System (LC) or the Dewey Decimal Classification System to organize their books. Most academic libraries use LC, and most public libraries and K-12 school libraries use Dewey.</p>
+
+
+
+
+        <p>Patron Management – This enables librarians to create and maintain the database of readers without any complexity. The librarian can track books and their due dates of submission. They can also smoothly execute the process of lending, returning and renewal of books</p>
+        </center>       
+        <div>
+
+        </div>
+        <div class="nav">
+            <ul id="item">
+                <br><br><br><br><br><br>
+                
+
+             
+                
+        <div id="services" class="mid">
+            <center>
+                <h1 >Services of library management System</h1>
+                <hr>   
+            </div>
+           <div class="container">
+            <h1>ENGINEERING MATHEMATICS</h1>
+            <h2>MATHEMATICS GATE SYLLABUS</h2>
+            
+           
+            <embed src="https://www.vidyalankar.org/gate/assets/docs/notes/maths.pdf" type="application/pdf" width="50%" height="600px"><br>
+
+           
+
+
+           </div>               
+            </center>
+        
+            <div id="registration" >
+                <center>
+                    <h1>REGISTRATION</h1>
+                    <form>
+                        <fieldset style="width: 50%;">
+                            <legend>Personal information</legend>
+                        <label>Enter FirstName::</label>
+                        <input type="text" name="fname" id="fname" ><br><br>
+                
+                        <label>Enter lastName::</label>
+                        <input type="text" name="lname" placeholder="enter name"><br><br>
+
+                        <label>Enter User Id::</label>
+                        <input type="text" name="lname" placeholder="enter name"><br><br>
+                
+                
+                        <label>Enter Password::</label>
+                        <input type="password" ><br><br>
+                
+                        <label>Email::</label>
+                        <input type="email" ><br><br>
+                
+                        
+                
+                      <label>Enter Gender::</label>
+                      <input type="radio" id="Gender" name="Gender" value="male">male
+                      <input type="radio" id="Gender" name="Gender" value="Female">Female
+                      
+                      <input type="radio" id="Gender" name="Gender" value="others">others
+                      
+                      <br><br>
+                
+                     
+                
+                      
+                       
+                     <input type="submit">
+                     <input type="reset">              
+                                      
+                    </fieldset>              
+                                
+                    </form>
+                </center>
+                
+            </div>
+
+            <div id="login">
+                <h1>LOGIN</h1>
+                <center>                 
+                    <form>
+                       
+                       <fieldset style="width: 50%;"> 
+                           <h1>Login</h1><hr> <br>   
+   
+                       <input type="text" placeholder="Username" name="username" required><br><br>
+                       
+                       <input type="password" placeholder="password" name="password" required><br><br>
+   
+                       <button type="submit">Login</button><br><br>
+   
+                       Forgot <a href="#"> password? </a><br><br>
+                       
+                       <button type="button" class="cancelbtn">Cancel</button>
+   
+   
+                    </form>
+                   </fieldset>
+           </center>  
+           </div>    
+           <div>
+            <h1><b>THANK YOU!!! </b></h1>
+            <H2>VISIT AGAIN</H2>
+           </div> 
+               
+         
+           
+        </body>
+        </html>
